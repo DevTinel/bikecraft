@@ -1,0 +1,71 @@
+@media (max-width: 1000px) {
+  .bike {
+    width: 480px;
+    margin-top: 30px;
+  }
+  .flex1::before {
+    display: none;
+  }
+  .flex1 {
+    width: min-content;
+    flex-wrap: wrap;
+  }
+
+  .inf-bike p {
+    font-weight: normal;
+    padding-left: 0px;
+    text-align: left;
+  }
+  .inf-bike {
+    padding-left: 20px;
+    text-align: center;
+  }
+  .links a {
+    padding: 5 10px;
+    width: 200px;
+    text-align: center;
+  }
+  .links {
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .flex2 {
+    width: min-content;
+    flex-wrap: wrap;
+  }
+  .vantagens h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .flex2 .column {
+    width: 450px;
+    margin-top: 30px;
+  }
+  .column {
+    margin: 0px auto;
+    width: 500px;
+  }
+  .item p {
+    font-size: 1.3rem;
+  }
+  .zebra {
+    width: 380px;
+  }
+}
+@media (max-width: 500px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .links a {
+    padding: 10;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
