@@ -68,4 +68,37 @@
     margin: 0 auto;
     margin-top: 10px;
   }
+  @media (max-width: 400px) {
+    html {
+      font-size: 1rem;
+    }
+    .bike {
+      margin-left: 10px;
+      width: 350px;
+      object-fit: contain;
+    }
+    .inf-bike p {
+      margin-bottom: -30px;
+      width: 20ch;
+    }
+    .inf-bike {
+      margin-left: 10px;
+      width: 380px;
+    }
+    .vantagens h2{
+      font-size: 2rem;
+      margin-left: -80px;
+      padding: 0;
+      gap: 0;
+    }
+    .column{
+      gap: 0;
+      margin-left: -20px;
+      width: 300px;
+    }
+    .footer {
+      background-color: aqua;
+      width: 420px;
+    }
+  }
 }
